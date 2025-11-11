@@ -27,8 +27,8 @@ void Instructor ::display(){
     cout<<experienceYears<<endl;
 }
 void Course:: addStudent(const Student& s){
-    Student* newstudent= new Student[currentStudents]
-    for(int i=0;i<currentstudents;i++){
+    Student* newstudent= new Student[currentStudents];
+    for(int i=0;i<currentStudents;i++){
         students[i]=newstudent[i]
     }
     newstudent[currentStudents]=s;
@@ -46,7 +46,7 @@ int main() {
     Instructor Drlina;
     Course CS101;
 
-    CS101.addstudent(OmarNabil);
+    CS101.addStudent(OmarNabil);
     OmarNabil.display();
     Drlina.display();
  CS101.display();
