@@ -1,12 +1,18 @@
 #ifndef PERSON_H
 #define PERSON_H
-
-#include <string>
+#include<string>
 using namespace std;
+class Person{
+    private:
+    string name;
+    int id;
+    public:
+    void intialize(string name, int id);
+    void display();
+    string getName();
 
-//#write Person class here
-
-
+};
+#endif
 
 
 
