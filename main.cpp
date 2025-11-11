@@ -42,7 +42,14 @@ void Course::displayCourseInfo(){
 
 
 int main() {
-   Student s1;
-    
+  Student OmarNabil;
+    Instructor Drlina;
+    Course CS101;
+
+    CS101.addstudent(OmarNabil);
+    OmarNabil.display();
+    Drlina.display();
+ CS101.display();
+ 
     return 0;
 }
