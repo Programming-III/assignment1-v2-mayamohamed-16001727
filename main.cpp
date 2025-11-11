@@ -29,7 +29,7 @@ void Instructor ::display(){
 void Course:: addStudent(const Student& s){
     Student* newstudent= new Student[currentStudents];
     for(int i=0;i<currentStudents;i++){
-        students[i]=newstudent[i]
+        students[i]=newstudent[i];
     }
     newstudent[currentStudents]=s;
     delete students;
